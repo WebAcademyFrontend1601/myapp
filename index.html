@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>This is the title</title>
-	</head>
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <link rel="stylesheet" href="src/style.css" media="screen" type="text/css" />
+</head>
 
-	<body>
-		This is the Content...
-		111
-		222
-		---
-		333
-		444
-		555
-		666
-		777
-	</body>
+<body>
+
+    <div>
+    <div id="rooms">
+      <div id='roomDiv'></div>
+      <div id='messagesDiv'></div>
+    </div>
+    <div>
+      
+      <input type='text' id='nameInput' placeholder='Name'>
+      <input type='text' id='messageInput' placeholder='Message'>
+      </div>
+    </div>
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+</body>
 </html>
